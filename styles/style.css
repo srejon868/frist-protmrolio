@@ -165,3 +165,14 @@ nav li a {
 .skills{
   margin-top:80px;
 }
+
+.footter{
+  padding: 130px 200px;
+  display: flex;
+  gap: 100px;
+  
+  
+}
+.footter-colum{
+  
+}
