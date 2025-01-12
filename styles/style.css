@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.normal  {
+          font-family: "Open Sans", serif;
+          font-optical-sizing: auto;
+          font-style: normal;
+          font-variation-settings:
+            "wdth" 100;
+        }
+/*shared style*/
+.sacondry-bg{
+background-color: #FFF8F3;
+}
+.header{
+          background-image: url("../images/developer.png"),url("../images/header_bg.png");
+          background-repeat: no-repeat;
+          background-position: top left,bottom right;
+
+}
+.text-primary{
+          color:#FD6E0A;
+}
+
+/*nav styles*/
+nav{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 50px 200px;
+}
+nav ul {
+          display: flex;
+          align-items: center;
+}
+.btn-primary{
+background-color: #FD6E0A;
+font-weight: bold;
+color: white;
+padding: 18px 35px;
+border-radius: 5px;
+font-size: 20px;
+border: none;
+}
+
+.nav-title{
+          font-weight: 800;
+          font-size: 45px;
+}
+nav ul li{
+          list-style: none;
+          margin-right: 51px;
+}
+nav li a {
+          text-decoration: none;
+          font-size: 20px;
+}
+.dark-2 {
+          color:#474747;
+}
+/*banar-style*/
+.banner{
+          display: flex;
+          justify-content: space-between;
+          margin: 0 35px 0 230px;
+}
+.banner-content{
+          max-width: 580px;
+}
+
+.banar-griting{
+          font-size: 45px;
+          font-weight: 600;
+}
+.banar-title{
+          font-weight: bold;
+          font-size: 85px;
+}
+.banar-discription{
+          font-size: 18;
+          font-weight: 400;
+}
+.btn-primary{
+          font-size:20;
+          font-weight:bold ;
+          
+}
+.banner-content-img{
+          display: flex;
+          width: 581px;
+
+          
+}
+
+/*about*/
+.saction-title{
+          font-size: 35px;
+          font-weight: bold;
+          color: #181818;
+}
+.saction-discription{
+          font-size: 18px;
+          font-weight: 400;
+          color: #757575;
+}
+/*main*/
+.main{
+          max-width: 1140px;
+          margin: 0% auto;
+          font-size: 18px;
+          font-weight: 400;
+}
+/*about style*/
+.about{
+          border-radius: 10px;
+          padding: 130px 150px;
+          font-size: 35px;
+          font-weight: bold;
+          margin-top: 130px;
+          text-align: center;
+}
+.about-itmes{
+  display: flex;
+  justify-content: space-around;
+}
+.about-item{
+  font-weight:bold;
+  font-size: 20px;
+  
+}
+
+
