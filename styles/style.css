@@ -128,15 +128,32 @@ nav li a {
   font-size: 20px;
   
 }
-
-.text-center{
+.center{
+  margin-top: 50px;
+}
+.note{
   text-align: center;
 }
-
-
+.exprience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.exprience-sub-title,.exprience-description{
+  color: #000;
+}
+.resume-container{
+  margin-top: 150px;
+}
+.resume{
+  display: flex;
+  gap: 24px;
+  
+  
+}
 .skill-containar{
   display: flex;
   gap: 30px;
+  
 }
 .skill{
   padding: 30px;
